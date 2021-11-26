@@ -1,0 +1,168 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    border-color: chocolate;
+
+}
+
+h2 {
+    font-size: 45px;
+    font-family: cursive;
+    border color: chocolate;
+    background-color:seagreen;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color:darkslategrey;
+    color:beige;
+    
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    color:beige;
+    background-color:crimson;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color:darkslategrey;
+    backface-visibility: visible;
+    color:beige;
+}
+
+img {
+    transition: transform .2s;
+   
+  
+}
+
+img:hover {
+    transform: scale(0.9);
+
+}
+
+.line {
+    height: 6px;
+    background-color: honeydew;
+    width: 70px;
+    margin: 8px auto;
+    border-radius: 5%;
+
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    color:beige;
+    background-color:seagreen;
+}
+#maths {
+    width: 250px;
+    margin-bottom: 40px;
+    border-radius: 15%;
+    height: 200px;
+}
+
+#cycle{
+    width: 250px;
+    margin-bottom: 40px;
+    border-radius: 15%;
+    height: 200px;
+}
+
+#about {
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    color:beige;
+    background-color:darkolivegreen;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float:right;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    color:black;
+    position: fixed;
+    background: white;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+    z-index: 10;
+    word-spacing: 3px;
+    
+}
+li {
+    display:inline;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    background-color:bisque;
+}
+    
+
+
+.name {
+    font-size:30px;
+    font-family:fantasy;
+    color:antiquewhite;
+}
+
+.links:hover {
+    font-size: 25px;
+    background-color: antiquewhite;
+}
+ 
+#Myfavouritebook {
+    background-color:darkslategray;
+    color:beige;
+}
+#carol {
+    border-radius:15px;
+}
+#myfavfood { background-color:darkslategray;
+    color:beige;}
+#food {
+    border-radius:15px;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+#myCarousel {
+    background-color: darkslategray;
+}
+
+#myCarousel img{
+    height:300px;
+    margin-top:35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:floralwhite;
+    font-size:20px;
+}
